@@ -1,0 +1,17 @@
+logging:
+  file:
+    name: phonebook.log
+server:
+  port: 9797
+spring:
+  datasource:
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+    password: rama
+    url: jdbc:oracle:thin:@localhost:1521:xe
+    username: rama
+phnbook:
+  messages:
+    saveContactSuccess: Contact saved success
+    saveContactFailed: Failed to save contact 
+    deleteContactSuccess: Contact deleted sucessfully
+    deleteContactFailed: Failed to delete contact
